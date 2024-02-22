@@ -1,38 +1,28 @@
-# Welcome to Remix!
+# Front end flashcards app
 
-- [Remix Docs](https://remix.run/docs)
+The idea is: There are 11 essential questions for front end that I have in mind. 
 
-## Development
+I want a way to practice them. So I am building an app that prompts me and give a text field to write out my answer. I want to use my openAI api keys to then have the thing judge my answer. 
 
-From your terminal:
+Could this be done with chatGPT? yes. 
 
-```sh
-npm run dev
-```
+But this seems more interesting to get some experience with their API.
 
-This starts your app in development mode, rebuilding assets on file changes.
+## stack
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+- [Remix](https://remix.run/)
+- [Fly](https://fly.io/)
+- [SQLlite](https://sqlite.org/)
+- [Prisma](https://www.prisma.io/)
+- [Zod](https://zod.dev/)
+- [Github Actions](https://github.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Shadcn/ui](https://ui.shadcn.com/)
+- [Docker](https://www.docker.com/)
+- [React Testing Library](https://testing-library.com/)
+- [Vitest](https://vitest.dev/)
+- [Mock Service Worker](https://mswjs.io/)
+- [OpenAI]
+- [Sentry](https://sentry.io/welcome/)
